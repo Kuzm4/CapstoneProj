@@ -1,0 +1,263 @@
+.loginpage {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 7px 50px rgb(214, 223, 213);
+
+        img {
+            position: absolute;
+            height: 100vh;
+            opacity: .6;
+        }
+
+    .container {
+        height: 75vh;
+        width: 60%;
+        margin: auto;
+        justify-content: space-between;
+        border-radius: 10px;
+        background: #00b3f1;
+        position: relative;
+
+        .text {
+            width: 55%;
+            height: 75vh;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 9px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        
+            .logo {
+                margin: auto;
+                margin-top: -30px;
+                height: 90%;
+                width: 100%;
+                display: flex;
+                position: relative;
+               
+                img {
+                    opacity: 10;
+                    position: relative;
+                    height: auto;
+                }
+                
+            }
+
+            .slogan {
+                margin-top: -70px;
+                p {
+                    font-size: 35px;
+                    text-align: center;
+                    margin: auto;
+                    font-weight: 600;
+                    font-family: "Montserrat" sans-serif;
+                }
+            }
+        
+        }
+        .formDiv {
+            flex-basis: 50%;
+            margin: auto;
+            flex-direction: column;
+            gap: 2.5rem;
+            transform: translateY(-1rem);
+            color: #fff;
+            font-size: 40px;
+            outline: none;
+
+            .headerDiv {
+                text-align: center;
+                h1 {
+                    font-size: 50px;
+                }
+            }
+            
+            .form {
+                gap: 1rem;
+
+        
+
+                .inputDiv {
+                    width: 150%;
+                    padding-right: 11rem;
+                    input {
+                        width: 95%;
+                        border: none;
+                        height: 8vh;
+                        border-radius: 5px;
+                        outline: none;
+                        padding: 0 15px;
+                    }
+                    ::placeholder {
+                        padding: 0 7.5px
+                    }  
+                      
+                }
+                .link {
+                    margin: auto;
+                    margin-top: .2rem;
+                    font-size: 13px;
+                    font-weight: 500;
+
+                    a {
+                        font-weight: 600;
+                        color: #fff;
+                        transition: 0.5s ease;
+                    }
+
+
+                    :hover {
+                        color: #002431;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .loginpage {
+        height: auto;
+        .container {
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            padding: 1.5rem;
+
+            .text {
+                width: 100%;
+                margin: 2.5rem 0;
+                border-radius: 5px;
+
+                .logo {
+                    width: 100%;
+                    font-size: 15px;
+                }
+            }
+            .formDiv {
+                gap: 1rem;
+                transform: translateY(-.5rem);
+
+                .headerDiv {
+                    padding: 1rem 0;
+                }
+
+                .form {
+                    gap: .5rem;
+                }
+                
+                .inputDiv{
+                    .input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 1080px) {
+    .loginpage {
+        .container {
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            padding: 1.5rem;
+
+            .text {
+                width: 100%;
+                margin: 2.5rem 0;
+                border-radius: 5px;
+
+                .logo {
+                    width: 100%;
+                    font-size: 15px;
+                }
+            }
+            .formDiv {
+                gap: 1rem;
+                transform: translateY(-.5rem);
+
+                .headerDiv {
+                    padding: 1rem 0;
+                }
+
+                .form {
+                    gap: .5rem;
+                }
+                
+                .inputDiv{
+                    .input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 902px) {
+    .loginpage {
+        height: auto;
+        .container {
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            padding: 1.5rem;
+
+            .text {
+                border-radius: 5px;
+            
+
+          
+            }
+            .formDiv {
+                gap: 1rem;
+                transform: translateY(-.5rem);
+
+                .headerDiv {
+                    padding: 1rem 0;
+                }
+
+                .form {
+                    gap: .5rem;
+                }
+                
+                .inputDiv{
+                    .input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .loginpage {
+        height: auto;
+        .container {
+            .text {
+                .logo {
+                    width: 100%;
+                }
+            }
+
+            .formDiv {
+                .form {
+                    .inputDiv {
+                        width: 150%;
+                        margin-left: .1rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}

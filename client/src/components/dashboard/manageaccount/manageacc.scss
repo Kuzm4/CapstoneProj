@@ -1,0 +1,217 @@
+.displayflex {
+    justify-content: space-between;
+    .pampalipasoras {
+        display: flex;
+    }
+    .ordericon {
+        display: flex;
+    }
+}
+
+.adduseracc {
+            font-size: 30px;
+            background-color: #87d8f8;
+            width: 5rem;
+            cursor: pointer;
+            height: 4rem;  
+            padding: 10px 17px;
+            border-radius: 10px;
+            box-shadow: 5px 7px 3px -3px rgba(0,0,0,0.59);
+            -webkit-box-shadow: 5px 7px 3px -3px rgba(0,0,0,0.59);
+            -moz-box-shadow: 5px 7px 3px -3px rgba(0,0,0,0.59);
+        }
+
+        .employees {
+                margin: auto;
+                margin-right: 60%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding-left: 6rem;
+                padding-right: 6rem;
+                height: 14vh;
+                gap: 7rem;
+                cursor: pointer;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                display: flex;
+                background:linear-gradient(to right, #87d8f8, #29b1ee);
+                border-radius: 10px;
+                box-shadow: 5px 7px 3px -3px rgba(0,0,0,0.59);
+-webkit-box-shadow: 5px 7px 3px -3px rgba(0,0,0,0.59);
+-moz-box-shadow: 5px 7px 3px -3px rgba(0,0,0,0.59);
+        }
+
+/* Style for the form that slides out */
+.slideout-form {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 630px;
+    height: 100%;
+    background-color: #8FD7F7;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    transition: right 0.5s ease-in-out;
+    padding: 20px;
+    padding-top: 5rem;
+    margin-top: 9.5rem;
+  }
+
+  .slideout-form form {
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+  }
+  
+  .slideout-form.visible {
+    right: 0;
+    margin-top: 9.5rem;
+  }
+  
+  .slideout-form h2 {
+    margin-bottom: 17px;
+    font-size: 30px;
+  }
+  
+  .slideout-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .slideout-form button {
+    border: none;
+    width: 50%;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: .8rem 1rem;
+    justify-content: center;
+    background-color: #002431;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.4s ease;
+    margin: 2rem 0;
+  }
+  
+  .slideout-form button:hover {
+    color: #002431;
+    background: #fff;
+    border: solid 1px #002431;
+  }
+  
+  /* Close button styles */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+  
+  .close-button:hover {
+    transition: .5s ease;
+    color: red;
+  }
+
+  .inputemp {
+    column-gap: 1rem;
+    .inputemployee {
+        display: flex;
+        width: 100%;
+        column-gap: 1rem;
+
+        input {
+            width: 100%;
+                height: 7vh;
+                outline: none;
+                font-size: .75rem;
+                color: #0f0f0f;
+                margin-top: 8px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 0 30px;
+        }
+    }
+  }
+
+  /* Sliding form */
+.slideout-formemp {
+  position: fixed;
+    top: 0;
+    right: -100%;
+    width: 630px;
+    height: 100%;
+    background-color: #8FD7F7;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    transition: right .5s ease-in-out;
+    padding: 20px;
+    padding-top: 5rem;
+    margin-top: 9.5rem;
+}
+
+.slideout-formemp.visible {
+  right: 0;
+  margin-top: 9.5rem;
+}
+
+.closemp-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+}
+
+.closemp-button:hover {
+  color: red;
+  transition: .5s ease;
+}
+
+/* Employee details */
+
+.employee-details p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.emptable {
+  h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1px;
+  }
+  h5 {
+    font-weight: 400;
+  }
+}
+
+.employee-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    
+  .inputemployee {
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    margin-right: 10rem;
+    margin-left: 2.7rem;
+
+    input {
+      width: 80%;
+      height: 5vh;
+      outline: none;
+      pointer-events: none;
+      border: none;
+      border-radius: 5px;
+      padding: 0 10px;
+      
+    }
+  }
+}
+
+

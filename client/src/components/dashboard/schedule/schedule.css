@@ -1,0 +1,57 @@
+.schedicon {
+  display: flex;
+  text-align: center;
+  font-size: 32px;
+  background-color: #87d8f8;
+  width: 5rem;
+  height: 4rem;
+  padding: 10px 22px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+
+.usercalendar {
+  display: flex;
+  margin: auto;
+  font-size: 35px;
+  gap: 3rem;
+  position: relative;
+  right: 0;
+  margin-right: 4.5rem;
+}
+.usercalendar .userplus {
+  background-color: #87d8f8;
+  margin: auto;
+  width: 5rem;
+  height: 4rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 17px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+.usercalendar .calendardays {
+  background-color: #87d8f8;
+  margin: auto;
+  width: 5rem;
+  height: 4rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 17px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+
+.kalendaryo {
+  margin: auto;
+  width: 15rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #87d8f8;
+  border-radius: 10px;
+}/*# sourceMappingURL=schedule.css.map */

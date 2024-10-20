@@ -1,0 +1,213 @@
+section {
+  width: 100%;
+  height: 21vh;
+  background-image: url("../../../assets/dash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+section .main {
+  width: 100%;
+  display: flex;
+  color: #002431;
+  padding-left: 190px;
+  padding-top: 30px;
+  height: auto;
+  margin: auto;
+  position: relative;
+  justify-content: space-between;
+}
+section .main .client {
+  font-size: 20px;
+  position: relative;
+}
+section .main .client h1, section .main .client h4 {
+  text-transform: uppercase;
+}
+section .main .client h4 {
+  font-weight: 400;
+}
+section .main .logout {
+  font-size: 50px;
+  margin-right: 7rem;
+}
+section .main .logout a {
+  justify-content: right;
+  text-align: right;
+  align-items: end;
+  color: black;
+}
+section .main .logout a :hover {
+  color: rgb(168, 0, 0);
+  transition: 0.5s ease;
+}
+
+.maind {
+  background-color: #fff;
+  height: 79vh;
+  width: 100%;
+}
+.maind .icons {
+  display: flex;
+  gap: 290px;
+  justify-content: center;
+  text-align: center;
+  font-size: 100px;
+  position: relative;
+  padding: 50px 0;
+  margin: auto;
+  margin-left: 10px;
+}
+.maind .icons a {
+  color: black;
+}
+.maind .icons a :hover {
+  transition: 0.5s ease;
+  background-color: #caf0ff;
+}
+.maind .icons .cart {
+  width: 200%;
+  background-color: #87d8f8;
+  border-radius: 8px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+.maind .icons .cart .ordername {
+  font-size: 20px;
+}
+.maind .icons .calendar {
+  width: 220%;
+  background-color: #87d8f8;
+  border-radius: 8px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+.maind .icons .calendar .calendarname {
+  font-size: 20px;
+}
+.maind .icons .waterbot:hover {
+  background-color: hsl(197, 100%, 90%);
+  transition: 0.5s ease;
+}
+.maind .icons .waterbot {
+  cursor: pointer;
+  width: auto;
+  background-color: #87d8f8;
+  border-radius: 8px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+.maind .icons .waterbot .watername {
+  font-size: 20px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.maind .icons2 {
+  display: flex;
+  gap: 270px;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 100px;
+  padding: 50px 0;
+}
+.maind .icons2 a {
+  color: black;
+}
+.maind .icons2 a :hover {
+  transition: 0.5s ease;
+  background-color: hsl(197, 100%, 90%);
+}
+.maind .icons2 .checklist {
+  width: 220%;
+  background-color: #87d8f8;
+  border-radius: 8px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+.maind .icons2 .checklist .checkname {
+  font-size: 20px;
+}
+.maind .icons2 .usercheck {
+  width: 120%;
+  background-color: #87d8f8;
+  border-radius: 8px;
+  box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 7px 3px -3px rgba(0, 0, 0, 0.59);
+}
+.maind .icons2 .usercheck .usercheckname {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main {
+    padding: 0 1rem;
+  }
+  .icons, .icons2 {
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    align-items: center;
+    padding: 0 1rem;
+  }
+  .client {
+    margin-left: -10rem;
+  }
+  .logout {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .icons, .icons2 {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .calendar, .waterbot {
+    margin-top: -18rem;
+  }
+  .waterbot {
+    margin-top: -25.5rem;
+    width: 220px;
+  }
+  .checklist, .usercheck {
+    margin-left: 0.7rem;
+    margin-top: -5rem;
+  }
+  .usercheck {
+    margin-top: -16.5rem;
+  }
+  .cart, .calendar, .waterbot, .checklist, .usercheck {
+    width: 100%;
+    max-width: 700px;
+  }
+  .ordername, .calendarname, .watername, .checkname, .usercheckname {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main {
+    padding: 0 0.5rem;
+  }
+  .icons, .icons2 {
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+  .cart, .calendar, .waterbot, .checklist, .usercheck {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .ordername, .calendarname, .watername, .checkname, .usercheckname {
+    font-size: 0.8rem;
+  }
+  .logout {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=dashboard.css.map */

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+header {
+
+    .mainbox {
+        background-image: url('../../assets/dash.png');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 40rem;
+        justify-content: space-between;
+        margin: auto;
+        position: relative;
+
+        .admin {
+            padding: 3rem 10rem;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        .adminlogout {
+            margin: auto;
+            padding: 3rem 10rem;
+            font-size: 50px;
+            
+               a {
+                color: black;
+
+                :hover {
+                    color: rgb(138, 0, 0);
+                    transition: .5s ease;
+                } 
+            }
+        }
+    }
+
+}
+
+.pending {
+    h1 {
+        align-items: center;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+.table {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid none;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #87d8f8;
+
+    table {
+        border-spacing: 3.3rem .5rem;
+        width: auto;
+
+        thead {
+            
+            th {
+                font-size: 20px;
+            }
+        }
+        tbody {
+           
+            td {
+                a {
+                    color: rgb(5, 5, 99);
+                }
+                a:hover {
+                    color: #cccccc;
+                    transition: .5s ease;
+                }
+                .button {
+                    display: flex;
+                    column-gap: 1rem;
+                    justify-content: center;
+
+                    .check {
+                        button {
+                            color: green;
+                        }
+                    }
+                    .reject {
+                        button {
+                            color: red;
+                        }
+                    }
+                    button {
+                       font-size: 2rem;
+                       background: none;
+                       border: none;
+                       cursor: pointer;
+
+                       :hover {
+                        color: cadetblue;
+                        transition: .5s ease;
+                    } 
+                    }
+                }
+            }
+        }
+    }
+}
+
+.popupmain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popupbox {
+    position: relative;
+    text-align: center;
+    background: #E0F7FA;
+    padding: 20px;
+    height: 30%;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: auto;
+
+    h2 {
+        font-size: 23px;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        font-size: 22px;
+        font-family: "Montserrat", sans-serif;
+        width: 30%;
+        border-radius: 15px;
+        margin: auto;
+        height: auto;   
+    }
+
+    .butyes {
+        margin-bottom: .5rem;
+        :hover {
+            background-color: rgb(56, 170, 56);
+            transition: .5s ease;
+        }
+    }
+    .butclose {
+        :hover {
+            background-color: rgb(150, 2, 2);
+            transition: .5s ease;
+        }
+    }
+  }
+  
+  .popup-content button {
+    margin: 5px;
+  }
