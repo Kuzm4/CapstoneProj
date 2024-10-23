@@ -9,8 +9,8 @@ const _login = () => {
   });
 
   const [errorMessage, setErrorMessage] = useState('');
-  const [isForgotPassword, setIsForgotPassword] = useState(false); // Toggle for forgot password
-  const [email, setEmail] = useState(''); // State for handling email during password reset
+  const [isForgotPassword, setIsForgotPassword] = useState(false); 
+  const [email, setEmail] = useState(''); 
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
